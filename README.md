@@ -97,7 +97,7 @@ php artisan db:seed
 php artisan serve
 ```
 
-The backend will be available at `http://localhost:8000`
+The backend will be available at `http://127.0.0.1:8000`
 
 ### Frontend Setup
 
@@ -111,12 +111,7 @@ cd frontend
 npm install
 ```
 
-3. Copy environment file (optional, defaults to localhost:8000):
-```bash
-cp .env.example .env
-```
-
-4. Start the development server:
+3. Start the development server:
 ```bash
 npm run dev
 ```
